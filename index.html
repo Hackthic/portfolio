@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>HACKTHIC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,900&family=Poppins:ital,wght@0,700;1,400&family=Ubuntu:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(25, 25, 61);
+        color: white;
+        font-family: "poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 65px;
+        background-color: rgb(29, 29, 81);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(144, 144, 224);
+        font-size: 1.01rem;
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+      .FirstSection {
+        display: flex;
+        justify-content: space-around;
+        margin: 80px 0;
+        align-items: center;
+      }
+      .FirstSection > div {
+        width: 30%;
+      }
+      .SectionLeft {
+        font-size: 2rem;
+      }
+      .btn{
+        background-color: rgb(206, 94, 206);
+        padding: 12px 5px;
+        border: 2px solid white;
+        border-radius: 5px;
+        font-size: 20px;
+        cursor: pointer;
+        
+      }
+      .SectionRight img {
+        width: 80%;
+        margin: 50px 0;
+      }
+      .purple {
+        color: blueviolet;
+      }
+      #element {
+        color: blueviolet;
+      }
+      .SecondSection {
+        margin: auto;
+        max-width: 80vw;
+        height: 100vh;
+      }
+      .SecondSection h1 {
+        font-size: 1.9rem;
+      }
+      .text-grey {
+        color: grey;
+      }
+      .SecondSection .box {
+        background-color: white;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+      .SecondSection .verticle {
+        height: 90px;
+        width: 1px;
+        background-color: white;
+        margin: 0 140px;
+      }
+      .verticle-title {
+        position: relative;
+        top: 40px;
+        left: -20px;
+      }
+      .verticle-des {
+        position: relative;
+        top: 40px;
+        left: -20px;
+        margin-top: 20px;
+        font-size: 9px;
+        color: grey;
+        width: 150px;
+      }
+      .top-image {
+        width: 50px;
+        position: relative;
+        top: -60px;
+        left: -20px;
+      }
+      main hr {
+        border: 0;
+        background-color: rgb(204, 178, 228);
+        height: 1.2px;
+        margin: 40px 110px;
+      }
+      footer {
+        background-color: rgb(62, 37, 62);
+      }
+      .footer {
+        padding: 23px 122px;
+        justify-content: space-evenly;
+        display: flex;
+      }
+      .footer ul {
+        list-style: none;
+      }
+      .footer > div {
+        width: 223px;
+      }
+      .footer-right {
+        color: grey;
+        text-align: center;
+        padding: 12px 0;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Aviral's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/">ABOUT ME</a></li>
+            <li><a href="/">PROJECTS</a></li>
+            <li><a href="/">CONTACT ME</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="FirstSection">
+        <div class="SectionLeft">
+          Hi! I am <span class="purple">AVIRAL</span>
+          <div>
+            And I am Passioanate
+            <span id="element"></span>
+            
+          </div>
+          <button class="btn">Download Resume</button>
+          <button class="btn">Visit Github</button>
+        </div>
+       
+        <div class="SectionRight"><img src="bg.png" /></div>
+      </section>
+      <hr />
+      <section class="SecondSection">
+        <span class="text-grey">what i have done in the past</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+          <div class="verticle">
+            <img class="top-image" src="developer.png" />
+            <div class="verticle-title">Web developer</div>
+            <div class="verticle-des">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+              corporis quidem vitae quaerat inventore dolore reiciendis enim
+              ratione similique magnam est, doloribus consequuntur reprehenderit
+              voluptatem totam delectus aut dolorem? Molestias, eveniet officia.
+            </div>
+          </div>
+          <div class="verticle">
+            <img class="top-image" src="metrowalk2.jpeg" />
+            <div class="verticle-title">Web Designer</div>
+            <div class="verticle-des">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
+              qui ipsum facere sed nobis neque nulla asperiores, libero et
+              aliquam cupiditate. Quia sapiente qui asperiores molestias
+              voluptatem delectus sint consequatur non doloremque.
+            </div>
+          </div>
+          <div class="verticle">
+            <img class="top-image" src="metrowalk3.jpeg" />
+            <div class="verticle-title">Digital Marketing</div>
+            <div class="verticle-des">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+              corporis quidem vitae quaerat inventore dolore reiciendis enim
+              ratione similique magnam est, doloribus consequuntur reprehenderit
+              voluptatem totam delectus aut dolorem? Molestias, eveniet officia.
+            </div>
+          </div>
+          <div class="verticle">
+            <img class="top-image" src="gymtrainer.jpeg" />
+            <div class="verticle-title">Gym Trainer</div>
+            <div class="verticle-des">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+              corporis quidem vitae quaerat inventore dolore reiciendis enim
+              ratione similique magnam est, doloribus consequuntur reprehenderit
+              voluptatem totam delectus aut dolorem? Molestias, eveniet officia.
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="footer">
+          <div class="footer-first">Aviral's Portfolio website</div>
+          <div class="footer-second">
+            <ul>
+              <li>HOME</li>
+              <li>ABOUT US</li>
+              <li>PROJECTS</li>
+              <li>CONTACT US</li>
+            </ul>
+          </div>
+          <div class="footer-third">
+            <ul>
+              <li>HOME</li>
+              <li>ABOUT US</li>
+              <li>PROJECTS</li>
+              <li>CONTACT US</li>
+            </ul>
+          </div>
+          <div class="footer-fourth">
+            <ul>
+              <li>HOME</li>
+              <li>ABOUT US</li>
+              <li>PROJECTS</li>
+              <li>CONTACT US</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-right">Copyright  &#169 www.aviral2105.me | All Right Reservedr</div>
+      </footer>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Developer...",
+          "Graphic Designer...",
+          " Digital Marketing...",
+          "Web Designer...",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
